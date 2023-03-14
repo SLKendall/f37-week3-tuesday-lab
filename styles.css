@@ -1,0 +1,75 @@
+body{
+background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/CRS_27_vertical_031323_CRS_27_vertical_031323_DSC_2713_desktop_505584d156.jpg);
+color: white;
+background-size: cover;
+background-position:center center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap:wrap;
+    padding-top: 20px;
+}
+
+#title{
+    font-size: xx-large;
+    margin-right:100px;
+}
+
+#title:hover{
+    cursor:pointer;
+}
+
+h3{
+    padding:10px;
+}
+
+h3:hover{
+    cursor: pointer;
+}
+
+#spacer {
+    margin:300px;
+}
+
+button {
+ background-color: transparent;
+ padding: 18px;
+ padding-left: 55px;
+ padding-right: 55px;
+ color: white;
+ border-color: white;
+ 
+}
+
+button:active {
+    color:black;
+    background-color: white;
+    transition:1s;
+}
+
+h2{
+    font-size:20px;
+}   
+
+h4{
+    font-size:40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#launch{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left:380px;
+}
+
